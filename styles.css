@@ -252,10 +252,12 @@ body {
   transform: translateY(-1px);
 }
 
-/* Жёлтая CTA в герое — контрастный акцент */
+/* Жёлтая CTA в герое — контрастный акцент, размер +20% */
 .hero .btn--primary {
   background: var(--color-yellow);
   color: var(--color-dark-blue);
+  padding: 17px 34px;
+  font-size: 1.2rem;
 }
 .hero .btn--primary:hover {
   background: var(--color-yellow-hover);
@@ -299,12 +301,16 @@ body {
   border-radius: var(--radius-lg);
   text-align: center;
   color: #fff;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .hero__stat-num {
   display: block;
   font-family: var(--font-heading);
-  font-size: 1.5rem;
+  font-size: 1.925rem;
   font-weight: 700;
   line-height: 1.2;
   color: #fff;
@@ -312,7 +318,7 @@ body {
 
 .hero__stat-label {
   display: block;
-  font-size: 0.85rem;
+  font-size: 1.02rem;
   color: rgba(255,255,255,0.95);
   margin-top: 4px;
 }
